@@ -18,5 +18,5 @@ A lightweight, no-framework note taking web app built with vanilla JavaScript, H
 
 2. **Clone the repo (optional for development)**  
    ```bash
-   git clone https://github.com/your-username/simple-todo-app.git
+   git clone https://github.com/maulasyakur/note_app.git
    cd simple-todo-app
