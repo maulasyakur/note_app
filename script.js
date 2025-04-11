@@ -4,7 +4,7 @@ const saveButton = document.getElementById("save-button");
 const notesListContainer = document.getElementById("notes-list");
 const modalContainer = document.getElementById("modal-container");
 
-let notesData = JSON.parse(localStorage.getItem("notes"));
+let notesData = JSON.parse(localStorage.getItem("notes")) || [];
 
 // notes initialization
 if (notesData.length === 0) {
